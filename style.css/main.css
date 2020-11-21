@@ -4,16 +4,14 @@ body {
 
 .container {
     background-color: white;
-    margin-top: 70px;
-    margin-right: 200px;
-    margin-left: 20px;
-    margin-bottom: 200px;
+    margin-top: 30px;
 }
 
 .fixed-bottom {
     background: gray;
     border-top: rgb(24, 168, 154) solid 5px;
-    margin-top: 20px;
+    margin-top: 40px;
+    width: 50%;
 }
 
 .img-fluid {
