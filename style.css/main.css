@@ -34,10 +34,12 @@ h1 {
 }
 
 #name {
-    background-color: rgb(24, 168, 154);
+    background-color: rgb(230, 66, 45);
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 
@@ -67,4 +69,10 @@ h1 {
     margin-left: auto;
     margin-top: 100px;
     
+}
+
+.nav-item :hover {
+    background-color: rgb(230, 66, 45) !important;
+    border-radius: 15px;
+    color: white !important;
 }
