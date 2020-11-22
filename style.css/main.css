@@ -15,10 +15,21 @@ body {
 }
 
 .img-fluid {
-    max-width:75%;
-    height: auto;
-    margin-left: 60px;
-    margin-top: 60px;
+    max-width:20%;
+    max-height: 50%;
+    border-radius: 100%;
+    display: inline;
+    vertical-align: text-bottom;
+    opacity: 0.85;
+    
+}
+
+.me {
+    display: inline;
+    text-align: center;
+    color: rgb(226, 231, 231);
+    font-style: oblique;
+    text-decoration: underline;
 }
 
 h4 {
@@ -73,4 +84,46 @@ h1 {
     background-color: rgb(230, 66, 45) !important;
     border-radius: 15px;
     color: white !important;
+}
+
+.carousel-caption {
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact {
+    color: #212529;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #212529!important;
+}
+
+.container-contact {
+    background-color: rgb(226, 231, 231);
+    margin-top: 60px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+
+}
+
+.index {
+    padding: 20px;
+    background-color: rgb(235, 68, 68);
+    border-radius: 25px;
+    
+}
+.info {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(226, 231, 231);
+}
+
+.info2 {
+    margin-left: 20px;
+    color: rgb(226, 231, 231);
 }
